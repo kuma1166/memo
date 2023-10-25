@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  width: 600px;
+  font-family: 'Arial';
+  margin: 0 auto;
+  padding: 10px;
+}
+
+div.content {
+  width: 600px;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: visible;
+}
+
+#product_name {
+  height: 50px;
+  width: 180px;
+}
+
+#product_price {
+  height: 50px;
+  width: 180px;
+}
+
+#add,#clear {
+  height: 50px;
+  width: 80px;
+}
+
+img {
+  width: 600px;
+}
+
+

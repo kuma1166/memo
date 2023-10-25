@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>闇金借入帳簿</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+<header>
+  <h1>闇金借入帳簿</h1>
+</header>
+<main>
+
+  <div>借入日:<span id="today"></span>
+    <p class="logo">
+      <!-- <a id="lastmonth" href="javascript:void(0);">＜＜前月</a> -->
+      <input type="text" id="product_name" placeholder="借入理由">
+      <input type="text" id="product_price" placeholder="金額">
+      <!-- <ul>
+        <li id="add">追加</li>
+        <li id="clear">削除</li>
+      </ul> -->
+      <input type="button" id="add" value="借入">
+      <input type="button" id="clear" value="返済">
+      <!-- <input type="button" id="delete" value="一行削除"> -->
+      <!-- <a id="nextmonth"  href="javascript:void(0);">翌月＞＞</a> -->
+    </p>
+
+    <!-- ここに追加データが挿入される -->
+    <table id="list">
+      <!-- <thead>
+        <tr>
+          <th>日付</th>
+          <th>品目</th>
+          <th>金額</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody> -->
+    </table>
+    <div id="total"></div>
+  </div>
+</main>
+<br>
+<img id="image" src="./img/default.jpg" alt="">
+
+<script src=".//main.js"></script>
+
+</body>
+</html>
